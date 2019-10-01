@@ -1,6 +1,6 @@
 package classes;
 
-public class Cane extends Animale
+public class Cane extends Animale implements interfaces.Cane
 {
     private byte n_zampe;
     private byte colore;
@@ -19,16 +19,20 @@ public class Cane extends Animale
 
     public void abbaia()
     {
-        System.out.println("Sto abbaiando");
+        Video.print("Sto abbaiando");
     }
 
     public void muoviti()
     {
-        System.out.println("Mi sto muovendo come un cane");
+        Video.print("Mi sto muovendo come un cane");
     }
 
     public byte getN_zampe() {
         return n_zampe;
+    }
+    public void corri()
+    {
+        Video.print("Sto correndo");
     }
 
     public void setN_zampe(byte n_zampe) {

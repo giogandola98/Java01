@@ -8,7 +8,7 @@ entry point del programma nel metodo statico main()
 class Main
 {
     public static void main(String[] args) {
-        Video.print("test clase abstract senza bisogno di istanza");
+        Video.print("test classe abstract senza bisogno di istanza");
 
         //istanzio la classe animale
         Animale animale = new Animale("Pippo", 15);
@@ -17,7 +17,7 @@ class Main
         animale.respira();
         animale.muoviti();
 
-        //istanzio un cane, estensione di animale
+        //istanzio un cane, estensione di animale secondo l'interfacia. potevo anche estendere l'interfaccia di Cane
         Cane cane = new Cane("Pluto", (byte) 20, (byte) 4, (byte) 1);
         //chiamo il metodo proprio di cane
         cane.abbaia();

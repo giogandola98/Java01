@@ -9,4 +9,16 @@ public abstract class Video
     {
         System.out.println(s);
     }
+    public static void print(int s)
+    {
+        System.out.println(s);
+    }
+    public static void print(char s)
+    {
+        System.out.println(s);
+    }
+    public static void print(float s)
+    {
+        System.out.println(s);
+    }
 }

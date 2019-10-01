@@ -20,12 +20,12 @@ public class Animale implements interfaces.Animale
     @Override
     public void muoviti()
     {
-        System.out.println("Mi sto muovendo in modo generico");
+        Video.print("Mi sto muovendo in modo generico");
     }
     @Override
     public void respira()
     {
-        System .out.println("Sto respirando");
+        Video.print("Sto respirando");
     }
 
     public String getNome() {
