@@ -22,7 +22,6 @@ public class Animale implements interfaces.Animale
     {
         System.out.println("Mi sto muovendo in modo generico");
     }
-
     @Override
     public void respira()
     {
