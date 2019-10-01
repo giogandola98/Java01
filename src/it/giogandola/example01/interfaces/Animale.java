@@ -1,4 +1,4 @@
-package interfaces;
+package it.giogandola.example01.interfaces;
 
 public interface Animale
 {

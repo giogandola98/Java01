@@ -1,6 +1,6 @@
-import classes.Animale;
-import classes.Cane;
-import classes.Video;
+import it.giogandola.example01.classes.Animale;
+import it.giogandola.example01.classes.Cane;
+import it.giogandola.example01.classes.Video;
 /*
 classe Main;
 entry point del programma nel metodo statico main()

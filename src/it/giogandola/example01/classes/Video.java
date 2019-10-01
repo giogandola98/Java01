@@ -1,4 +1,4 @@
-package classes;
+package it.giogandola.example01.classes;
 
 /*
 classe statica, non ha bisogno di istanza ma puo accettare soltanto metodi statici

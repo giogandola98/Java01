@@ -1,6 +1,6 @@
-package classes;
+package it.giogandola.example01.classes;
 
-public class Animale implements interfaces.Animale
+public class Animale implements it.giogandola.example01.interfaces.Animale
 {
     private String nome;
     private byte età;

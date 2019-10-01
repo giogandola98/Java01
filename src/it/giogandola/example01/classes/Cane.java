@@ -1,6 +1,6 @@
-package classes;
+package it.giogandola.example01.classes;
 
-public class Cane extends Animale implements interfaces.Cane
+public class Cane extends Animale implements it.giogandola.example01.interfaces.Cane
 {
     private byte n_zampe;
     private byte colore;
