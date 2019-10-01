@@ -1,6 +1,10 @@
 import classes.Animale;
 import classes.Cane;
 import classes.Video;
+/*
+classe Main;
+entry point del programma nel metodo statico main()
+ */
 class Main
 {
     public static void main(String[] args) {
